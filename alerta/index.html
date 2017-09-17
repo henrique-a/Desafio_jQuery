@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Alerta</title>
+      <meta charset=“utf-8”>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">
+      <!--MEU CSS-->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- BIBLIOTECA JQUERY -->
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <!-- BIBLIOTECA JQUERY UI -->
+      <script src="js/jquery-ui.js"></script>
+      <!-- BIBLIOTECA TOASTR (notificacao personalizada) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.js"></script>
+      <!--MEU JS-->
+      <script type="text/javascript" src="js/script.js"></script>
+   </head>
+   <body>
+      <div id="alerta" hidden="">
+         <div class="title">Receba Nossas Novidades <i id="x" class="fa fa-times"></i></div>
+         <div class="body">
+            <form id="novidadesform" name="contact-form" method="POST" >
+               <label>e-mail:</label>
+               <input type="text" name="email" placeholder="digite seu email">
+               <button type="submit">Enviar</button>
+            </form>
+            <div class="resultado"></div>
+         </div>
+      </div>
+      <div id="contador"></div>
+   </body>
+</html>
